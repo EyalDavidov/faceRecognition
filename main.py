@@ -1,7 +1,7 @@
-import threading  # Import threading module for concurrent execution
+import threading
 
-import cv2  # Import OpenCV for video processing
-from deepface import DeepFace  # Import DeepFace for face verification
+import cv2
+from deepface import DeepFace
 
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)  # Open the default camera
 
@@ -81,3 +81,5 @@ while True:
         break  # Exit the loop if 'q' is pressed
 
 cv2.destroyAllWindows()  # Close all OpenCV windows
+
+cv2.destroyAllWindows()
